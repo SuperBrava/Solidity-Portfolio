@@ -12,13 +12,13 @@ contract Variables{
 
     //global variables can be found at https://docs.soliditylang.org/en/v0.8.10/units-and-global-variables.html
     //globally accessible information, block number, msg, gas left
-    
+
     
     function myFunc() public view {
-       //  uint256 localNumber = 20; // local variable
-       // bool localPaused = true; // local variable
-       //  address theSenderAddress = msg.sender;
-    }
+       uint256 localNumber = 20; // local variable
+       bool localPaused = true; // local variable
+       address theSenderAddress = msg.sender;
+      }
     //LOCAL VAR EXPIRE AFTER FUNCTION EXECUTION
 }
 
